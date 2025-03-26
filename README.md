@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Restaurant_reservation 🥐🛎️🍽️🍱🍣
 
-## Getting Started
+#### Frontend code for restaurant reservation
+- users can register, login, logout (have role user and admin)
+- "user" can add, get, update, delete their reservations
+- "admin" can get all, add, update, delete all reservations and restaurants
+- info of reservations will show in each restaurant
 
-First, run the development server:
+#### Extra credit: Review restaurant ⭐⭐⭐⭐⭐
+- user can add review for restaurant they have gone
+   * checked by reservation id
+   * also check: review date must be "After" reservation date
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+#### Running
+- using Next.js, VScode
+- Database: MongoDB Atlas, Postman
+- localhost:3000
+- vercel
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### UX/UI Flow
+- [Design + Workflow](https://www.figma.com/design/VbPEfhARvEDmd8HO74wbMo/Moodeng?node-id=746-189&t=0UEVPQw5iB51LblH-1)
+- [Autorun workflow (prototype)](https://www.figma.com/proto/VbPEfhARvEDmd8HO74wbMo/Moodeng?node-id=644-1022&t=0UEVPQw5iB51LblH-1)
+  
+#### Presentation
+[MooDeng_RestaurantReservation.pdf](https://github.com/incluDna/Restaurant_reservation/blob/326bc63616d2b86062b36bb752f1c8ddcbb4b140/MooDeng_RestaurantReservation.pdf)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### Contributors
+- Atipat B. [atipata](https://github.com/atipata)
+- Penpitcha P. [incluDna](https://github.com/incluDna)
