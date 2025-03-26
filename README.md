@@ -21,8 +21,11 @@
 - [Design + Workflow](https://www.figma.com/design/VbPEfhARvEDmd8HO74wbMo/Moodeng?node-id=746-189&t=0UEVPQw5iB51LblH-1)
 - [Autorun workflow (prototype)](https://www.figma.com/proto/VbPEfhARvEDmd8HO74wbMo/Moodeng?node-id=644-1022&t=0UEVPQw5iB51LblH-1)
   
+#### Documentary (UX/UI Flow)
+[MooDeng_RestaurantReservation_Documentary.pdf]
+
 #### Presentation
-[MooDeng_RestaurantReservation.pdf](https://github.com/incluDna/Restaurant_reservation/blob/326bc63616d2b86062b36bb752f1c8ddcbb4b140/MooDeng_RestaurantReservation.pdf)
+[MooDeng_RestaurantReservation_Presentation.pdf](https://github.com/incluDna/Restaurant_Reservation_frontend/blob/f925c6db5688af4bb5ebf10663ffe20fa569872e/Moodeng-RestaurantReservation%20(FE).pdf)
 
 #### Contributors
 - Atipat B. [atipata](https://github.com/atipata)
