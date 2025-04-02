@@ -1,7 +1,13 @@
 ## Restaurant_reservation 🥐🛎️🍽️🍱🍣
 
 #### Frontend code for restaurant reservation
-- users can register, login, logout (have role user and admin)
+- users can login, logout (have role user and admin)
+
+  `*Notice*` ⚠️Human error: ลืมทำ register
+
+  so, for testing
+  - admin john@gmail.com 123456
+  - user ann@gmail.com 123456
 - "user" can add, get, update, delete their reservations
 - "admin" can get all, add, update, delete all reservations and restaurants
 - info of reservations will show in each restaurant
