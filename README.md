@@ -25,7 +25,7 @@
 [MooDeng_RestaurantReservation_Documentary.pdf](https://github.com/incluDna/Restaurant_Reservation_frontend/blob/4da9d037ad604734b97945b7b8117791228760ef/Moodeng_UI_Flow_Design_Documentation%20(1).pdf)
 
 #### Presentation
-[MooDeng_RestaurantReservation_Presentation.pdf](https://github.com/incluDna/Restaurant_Reservation_frontend/blob/f925c6db5688af4bb5ebf10663ffe20fa569872e/Moodeng-RestaurantReservation%20(FE).pdf)
+[MooDeng_RestaurantReservation_Presentation.pdf](https://github.com/incluDna/Restaurant_Reservation_frontend/blob/79fc6d72d952fad9682c1421d4469cd4229578b5/Moodeng-RestaurantReservation%20(1).pdf)
 
 #### Contributors
 - Atipat B. [atipata](https://github.com/atipata)
