@@ -6,8 +6,8 @@
   `*Notice*` ⚠️Human error: ลืมทำ register
 
   so, for testing
-  - admin john@gmail.com 123456
-  - user ann@gmail.com 123456
+  - admin john@gmail.com pwd: 123456
+  - user ann@gmail.com pwd: 123456
 - "user" can add, get, update, delete their reservations
 - "admin" can get all, add, update, delete all reservations and restaurants
 - info of reservations will show in each restaurant
@@ -16,6 +16,8 @@
 - user can add review for restaurant they have gone
    * checked by reservation id
    * also check: review date must be "After" reservation date
+
+`*bug*` หน้า manage review ขึ้น restaurant id แต่ไม่ขึ้นชื่อร้าน
 
 #### Running
 - using Next.js, VScode
