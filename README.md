@@ -3,7 +3,7 @@
 #### Frontend code for restaurant reservation
 - users can login, logout (have role user and admin)
 
-  `*Notice*` ⚠️Human error: ลืมทำ register
+  `*Notice*` ⚠️Human error: ลืมทำ register🙇‍♀️
 
   so, for testing
   - admin john@gmail.com pwd: 123456
@@ -20,11 +20,12 @@
 
 `*bug*` หน้า manage review ขึ้น restaurant id แต่ไม่ขึ้นชื่อร้าน
 
-#### Running
-- using Next.js, VScode
+#### Running & Setting
+- using Next.js [instruction](https://github.com/incluDna/Restaurant_Reservation_frontend/blob/7bf3f482ed4abd08f6fa6fd646498693d98a30b0/Nextjs_instruction.md), VScode
 - Database: MongoDB Atlas, Postman
 - localhost:3000
-- vercel ❌error
+- vercel ❌ `in progress`
+- Appearance(Display): Light theme
 
 #### UX/UI Flow
 - [Design + Workflow](https://www.figma.com/design/VbPEfhARvEDmd8HO74wbMo/Moodeng?node-id=746-189&t=0UEVPQw5iB51LblH-1)
