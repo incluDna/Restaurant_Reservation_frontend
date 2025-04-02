@@ -16,7 +16,7 @@
 - user can add review for restaurant they have gone (+edit, delete own list)
    * checked by reservation id
    * also check: review date must be "After" reservation date
-   * have mean review for each restaurant
+   * have mean rating for each restaurant
 
 `*bug*` หน้า manage review ขึ้น restaurant id แต่ไม่ขึ้นชื่อร้าน
 
