@@ -13,9 +13,10 @@
 - info of reservations will show in each restaurant
 
 #### Extra credit: Review restaurant ⭐⭐⭐⭐⭐
-- user can add review for restaurant they have gone
+- user can add review for restaurant they have gone (+edit, delete own list)
    * checked by reservation id
    * also check: review date must be "After" reservation date
+   * have mean review for each restaurant
 
 `*bug*` หน้า manage review ขึ้น restaurant id แต่ไม่ขึ้นชื่อร้าน
 
@@ -23,7 +24,7 @@
 - using Next.js, VScode
 - Database: MongoDB Atlas, Postman
 - localhost:3000
-- vercel
+- vercel ❌error
 
 #### UX/UI Flow
 - [Design + Workflow](https://www.figma.com/design/VbPEfhARvEDmd8HO74wbMo/Moodeng?node-id=746-189&t=0UEVPQw5iB51LblH-1)
