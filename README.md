@@ -7,7 +7,7 @@
 
   so, for testing
   - admin john@gmail.com pwd: 123456
-  - user ann@gmail.com pwd: 123456
+  - user jane@gmail.com pwd: 123456
 - "user" can add, get, update, delete their reservations
 - "admin" can get all, add, update, delete all reservations and restaurants
 - info of reservations will show in each restaurant
