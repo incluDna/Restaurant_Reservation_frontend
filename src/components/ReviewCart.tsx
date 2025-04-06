@@ -67,13 +67,15 @@ export default function ReviewCart({ venuesJson, session }: { venuesJson: Review
                 {venuesJsonready.data.map((carditem: ReviewItem) => (
                     <Link href={`manage/add?id=${carditem._id}`} className="w-full" key={carditem._id}>
                         <div className="bg-green-100 rounded-lg px-5 py-4 my-4 hover:bg-green-200 transition-all duration-300">
-                            <div className="text-xl font-semibold">ID: {carditem._id}</div>
+                            <div className="text-sm text-gray-800">review_id: {carditem._id}</div>
+                        <div className="text-xl">Restaurant: {carditem.restaurant.name} <span className="text-sm text-gray-800">(id: {carditem.restaurant.id})</span></div>
+    
                             {/* <div className="text-sm">
                                 {loading ? "Loading..." : (restaurantNames[carditem.restaurant] || "Unknown Restaurant")}
                             </div> */}
-                            <div className="text-sm">Name: {carditem.user}</div>
-                            <div className="text-sm">Review Star: <Rating value={parseInt(carditem.reviewStar)} readOnly /></div>
-                            <div className="text-sm">Description: {carditem.Description}</div>
+                            <div className="text-sm font-medium">Reviewer_id: {carditem.user}</div>
+                            <div className="text-sm font-medium">Review Star: <Rating value={parseInt(carditem.reviewStar)} readOnly /></div>
+                            <div className="text-sm font-medium">Description: {carditem.Description}</div>
                             <button
                                 className='bg-amber-800 text-white rounded border border-white
                                 font-serif text-xl py-2 px-2 m-2 z-50 
