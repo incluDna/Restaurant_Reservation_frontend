@@ -1,9 +1,9 @@
 import NextAuth from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 import userLogin from "@/libs/userLogin";
-import type { NextAuthOptions } from "next-auth"; // Import type แบบนี้
+import type { NextAuthOptions } from "next-auth";
 
-export const authOptions: NextAuthOptions = {
+const authOptions: NextAuthOptions = {
   providers: [
     CredentialsProvider({
       name: "Credentials",
@@ -11,15 +11,13 @@ export const authOptions: NextAuthOptions = {
         email: { label: "Email", type: "text", placeholder: "email" },
         password: { label: "Password", type: "password" },
       },
-      async authorize(credentials, req) {
+      async authorize(credentials) {
         if (!credentials) return null;
         const user = await userLogin(credentials.email, credentials.password);
-
         if (user) {
-          return user; // ถ้า login สำเร็จ
-        } else {
-          return null; // ถ้า login fail
+          return user;
         }
+        return null;
       },
     }),
   ],
@@ -33,9 +31,10 @@ export const authOptions: NextAuthOptions = {
       return session;
     },
   },
-  secret: process.env.NEXTAUTH_SECRET, // เพิ่ม secret เข้าไปด้วยนะ
+  secret: process.env.NEXTAUTH_SECRET,
 };
 
+// ❌ อย่า export authOptions ออกไป
 const handler = NextAuth(authOptions);
 
 export { handler as GET, handler as POST };
