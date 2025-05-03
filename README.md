@@ -20,6 +20,12 @@
 
 `*bug*` หน้า manage review ขึ้น restaurant id แต่ไม่ขึ้นชื่อร้าน
 
+#### Preview (user)
+![user_moodeng](https://github.com/user-attachments/assets/08676562-6e27-468f-b65f-7cffa68a932d)
+
+#### Preview (admin)
+![admin_](https://github.com/user-attachments/assets/ae0e64dd-8810-45bd-a953-556e6fe71b7e)
+
 #### Running & Setting
 - using Next.js [instruction](https://github.com/incluDna/Restaurant_Reservation_frontend/blob/7bf3f482ed4abd08f6fa6fd646498693d98a30b0/Nextjs_instruction.md), VScode
 - Database: MongoDB Atlas, Postman
